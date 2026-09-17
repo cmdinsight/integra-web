@@ -76,9 +76,10 @@ legible a 16px, así que el icono usa sólo la marca.
 El de iOS va con fondo blanco a propósito: iOS ignora la transparencia y compone
 sobre negro, que dejaría la marca ilegible.
 
-## Política de privacidad
+## Páginas legales
 
-`privacidad.html` en cada sitio, enlazada desde la barra inferior del footer.
+`privacidad.html` y `terminos.html` en cada sitio, enlazadas desde la barra
+inferior del footer.
 Se genera reutilizando el header y el footer de la home de cada sitio, así que
 hereda el estilo automáticamente.
 
@@ -86,7 +87,11 @@ El texto describe el tratamiento **real** de datos de cada sitio, no una plantil
 la home documenta el formulario de HubSpot y la transferencia internacional que eso
 implica; Integra Personal, que no tiene formulario, documenta sólo el correo.
 
-> **Redactada sin asesoramiento legal.** Antes de darla por buena tiene que revisarla
+Los términos incluyen dos avisos que importan por tratarse de un grupo de salud: que
+el sitio no brinda asesoramiento médico ni crea relación médico-paciente, y que ante
+una emergencia hay que llamar al 911, no escribir por la web.
+
+> **Redactadas sin asesoramiento legal.** Antes de darla por buena tiene que revisarla
 > un abogado, sobre todo por tratarse de un grupo de salud y por la transferencia de
 > datos a Estados Unidos que hace HubSpot.
 

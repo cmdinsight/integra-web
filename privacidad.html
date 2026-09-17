@@ -24,6 +24,9 @@ a[style*="display:flex"] > span,
 a[style*="display: flex"] > span{min-width:0}
 /* direcciones largas parten en vez de desbordar */
 a[href^="mailto:"], a[href^="mailto:"] span{min-width:0;overflow-wrap:anywhere}
+
+/* dominios y correos largos parten en vez de desbordar en pantallas angostas */
+#cuerpo{overflow-wrap:break-word}
 </style></head>
 <body>
 <div id="dc-root"><div class="sc-host" data-sc-name="Integra-Medical-Group-CORREGIDO"><div style='font-family: "Hanken Grotesk", system-ui, sans-serif; color: rgb(51, 69, 92);'>
@@ -177,7 +180,7 @@ a[href^="mailto:"], a[href^="mailto:"] span{min-width:0;overflow-wrap:anywhere}
 </div>
 </div>
 <div style="margin-top: 48px; padding-top: 24px; border-top: 1px solid rgba(255, 255, 255, 0.09); display: flex; flex-wrap: wrap; gap: 10px 24px; justify-content: space-between; align-items: center;">
-<span style="font-size: 13px; color: rgb(126, 155, 188);">© 2026 Integra Medical Group · Montevideo, Uruguay</span><a href="/privacidad.html" style="font-size:13px;color:#7E9BBC;text-decoration:none;border-bottom:1px solid rgba(126,155,188,0.3)">Política de privacidad</a>
+<span style="font-size: 13px; color: rgb(126, 155, 188);">© 2026 Integra Medical Group · Montevideo, Uruguay</span><a href="/privacidad.html" style="font-size:13px;color:#7E9BBC;text-decoration:none;border-bottom:1px solid rgba(126,155,188,0.3)">Política de privacidad</a><a href="/terminos.html" style="font-size:13px;color:#7E9BBC;text-decoration:none;border-bottom:1px solid rgba(126,155,188,0.3)">Términos y condiciones</a>
 <span style="font-size: 12.5px; color: rgb(94, 120, 154);">Soluciones médicas, asistenciales y tecnológicas</span>
 </div>
 </div>
