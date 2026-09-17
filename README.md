@@ -61,6 +61,21 @@ El header tiene dos versiones que conmutan por CSS en **1099px**: la de escritor
 (`data-hdr="desktop"`) y la móvil con menú hamburguesa (`data-hdr="mobile"`).
 Verificado sin desbordes de 320 a 1920px.
 
+## Favicon
+
+El isotipo recortado del logo vertical. El texto "Integra Medical Group" no entra
+legible a 16px, así que el icono usa sólo la marca.
+
+| Archivo | Uso |
+|---|---|
+| `favicon.ico` (raíz de cada sitio) | 16/32/48 px, con transparencia |
+| `assets/favicon-32.png` | navegadores modernos |
+| `assets/icon-192.png` | Android / pantalla de inicio |
+| `assets/apple-touch-icon.png` | iOS, 180px con fondo blanco |
+
+El de iOS va con fondo blanco a propósito: iOS ignora la transparencia y compone
+sobre negro, que dejaría la marca ilegible.
+
 ## Pendiente
 
 - **Falta el logo.** `assets/integra-logo.png` no estaba disponible; hay un wordmark
