@@ -5,10 +5,18 @@ Sitio de **Integra Medical Group** — [integramedicalgroup.uy](https://integram
 HTML estático, sin framework ni paso de build. Vercel sirve el directorio tal cual.
 
 ```
-index.html            la home completa
+index.html            la home de integramedicalgroup.uy
 assets/contacto.js    formulario + menú móvil
 assets/*.webp         imágenes
+
+personal/             integrapersonal.integramedicalgroup.uy
+  index.html          la landing de Integra Personal
+  assets/menu.js      sólo el menú móvil (esta página no tiene formulario)
+  assets/*.webp       galería del equipo
 ```
+
+Dos sitios, un repo. Cada uno es un proyecto de Vercel distinto: el de Integra
+Personal apunta al subdirectorio `personal/` como raíz.
 
 ## Formulario de contacto
 
